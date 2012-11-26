@@ -1,0 +1,22 @@
+# trigger file - if you've done through part 11 but no stories are popping
+# up, you should edit this file to contain triggers that will fire on current
+# news stories!
+# Problem 11: 
+
+t1 SUMMARY occupy
+
+t2 SUMMARY Israel
+
+t3 PHRASE Gaza conflict
+
+t4 AND t2 t3
+
+t5 TITLE world
+
+t6 SUMMARY Obama
+
+t7 SUMMARY Germany
+
+# trigger set containing the specified triggers:
+ADD t1 t4 t5 t6 t7
+
