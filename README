@@ -1,1 +1,1 @@
-Taken from the EdX python course, I would like to evolve this script to a point where it can run on a amazon beanstalk instance, filtering news and sending the results to my email account.
+Taken from the EdX python course, I would like to evolve this script to a point where it can run on an amazon beanstalk instance, filtering news and sending the results to my email account.
